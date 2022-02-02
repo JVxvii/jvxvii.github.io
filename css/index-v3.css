@@ -1,0 +1,125 @@
+
+
+		body {
+			background: url(../images/background.jpg) no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			}
+		
+		h1{
+			float: top;
+			font-family: cursive;
+			font-size: 2.5vw;
+			color: black;
+			border: 5px solid black;
+			border-radius: 15px 15px 15px 0;
+			background-color: rgba(255,255,255,.8);
+			padding: 5px 15px 1px 15px;
+			width: 56%;
+			position: relative;
+			}
+			
+			
+		.nav{
+			margin: auto;
+			margin-bottom: 1%;
+			background-color: rgba(255,255,255,.8);
+			border: 3px solid black;
+			border-radius: 15px 0 0 15px;
+			font-size: 1.5vw;
+			font-family: cursive;
+			text-align: center;
+			width: 9%;
+			float: left;
+			}
+	
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			}
+			
+		li a:link{
+			display: block;
+			color: black;
+			padding: 10px;
+			text-decoration: none;
+			}
+		li a:visited{
+			color: black;
+			}
+		li a:hover {
+			background-color: rgb(38,70,83);
+			color: white;
+			border-radius: 10px 0 0 10px;
+			}
+		li a.active {
+			background-color: rgb(138,177,125);
+			color: white;
+			}
+			
+		.main{
+			margin: auto;
+			background-color: rgba(255,255,255,.9);
+			border: 3px solid black;
+			border-radius: 0 15px 15px 0;
+			height: 100%;
+			width: 89%;
+			float: right;
+			}
+		
+		.intro{
+			float: left;
+			font-family: cursive;
+			font-size: 1.5vw;
+			color: black;
+			width: 45%;
+			position: relative:
+			}
+			
+		p{
+			color: red;
+			animation: rainbow 10s infinite;
+			}
+			
+		@keyframes rainbow{
+			0%{color: red;}
+			25%{color: yellow;}
+			50%{color: green;}
+			75%{color: blue;}
+			100%{color: red;}
+			}
+			
+		.armory{
+			float: right;
+			border-left: 3px solid;	
+			border-bottom: 3px solid;
+			border-radius: 0 0 0 15px;
+			text-align: center;
+			width: 53%;
+			height: 18vw;
+			position: relative;
+			}
+			
+		.youtube{
+			background: url('../images/social_media.jpg') no-repeat 34.894% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 12px;
+			height: 13px;
+			}
+		.facebook{
+			background: url('../images/social_media.jpg') no-repeat 4.274% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 13px;
+			height: 13px;
+			}
+		.twitter{
+			background: url('../images/social_media.jpg') no-repeat 19.313% 11.243%;
+			background-size: 130px 97px;
+			margin: auto;
+			width: 13px;
+			height: 13px;
+			}
